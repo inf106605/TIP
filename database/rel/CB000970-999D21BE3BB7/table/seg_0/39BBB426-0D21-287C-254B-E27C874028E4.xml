@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39BBB426-0D21-287C-254B-E27C874028E4" name="friends">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="05351E23-09E3-E4C8-50B4-9FFA3298DFC5">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>E8CFD68C-DF3F-AC5C-E948-EE721A17B18B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCA63A24-7298-C6B2-6626-FA1DA85788B1" referredColumn="E8CFD68C-DF3F-AC5C-E948-EE721A17B18B"/>
+</associations>
+</Column>
+<Column name="friend_id" id="47249783-EB42-C8D1-F14A-A2A5C679FF5A">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>E8CFD68C-DF3F-AC5C-E948-EE721A17B18B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="121B86A4-12C9-CD40-A83B-0CAC766767DB" referredColumn="E8CFD68C-DF3F-AC5C-E948-EE721A17B18B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3D79A27-54B3-1310-AB9C-B3636C82783D" name="friends_PK">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05351E23-09E3-E4C8-50B4-9FFA3298DFC5"/>
+<colUsage columnID="47249783-EB42-C8D1-F14A-A2A5C679FF5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F00BE32-370A-9B60-00C8-DBD2874EAE8F" name="friends__UN">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:08:47 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05351E23-09E3-E4C8-50B4-9FFA3298DFC5"/>
+<colUsage columnID="47249783-EB42-C8D1-F14A-A2A5C679FF5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E6ADC62-0DC2-E562-E0EF-FDCC85571AC7" name="friends__IDX_user">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:08:47 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05351E23-09E3-E4C8-50B4-9FFA3298DFC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E6D95DA-4955-E748-B121-D0741E5505E0" name="friends__IDX_user_friend">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:08:47 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05351E23-09E3-E4C8-50B4-9FFA3298DFC5"/>
+<colUsage columnID="47249783-EB42-C8D1-F14A-A2A5C679FF5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="768DA419-0950-58B0-0677-3D238636EF56" name="FK_ASS_1">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>7E2D7C08-BE98-C2FC-B79C-E622650AA028</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05351E23-09E3-E4C8-50B4-9FFA3298DFC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="755ABD75-1E05-732A-97FA-91F5DA45E695" name="FK_ASS_2">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>7E2D7C08-BE98-C2FC-B79C-E622650AA028</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47249783-EB42-C8D1-F14A-A2A5C679FF5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

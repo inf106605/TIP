@@ -1,0 +1,208 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7FAEFB1-D2DC-7027-3BA0-E49ADD305C0F" name="User">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>4C0FABE8-1876-0F08-64F8-A36B578A0A25</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<abbreviation>u</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E8CFD68C-DF3F-AC5C-E948-EE721A17B18B">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>BD5D8A64-2BF9-D461-3EBB-69C97A927EFD</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>user_sequence</autoIncrementSequenceName>
+<autoIncrementTriggerName>user_id_trigger</autoIncrementTriggerName>
+</Column>
+<Column name="login" id="C8F640B7-C189-45BD-77D5-76AE1157EAE3">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>499E8ACC-DF94-E52A-5BB9-2378D99A5DA0</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="F4C14C0E-C464-3272-13FF-798CC0DD7F73">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>943C66D8-ABEB-55FB-2A79-2A124910D1AF</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="firstname" id="60CD45DC-CBED-35D6-85EF-1B19DD744DBF">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>487DB077-ADA2-A9F8-05D5-F4E48C72FBA5</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="surname" id="657A68BF-CE46-7853-F30C-E8AD156A4700">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>9375C925-2AC0-5E79-0D5C-BD29B1564FF2</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="7D6D65EF-9258-6862-1885-B223BEC55451">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>7296DC82-9AFA-69E8-B65E-7438E87A541D</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="17CED937-70DA-7756-929D-0AFD81A8FC9A">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>129C78D3-EC07-9923-DDB6-CEEEF8CB9133</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="visible_to_strangers" id="ADCC18D3-5D24-5965-EF05-8AB33BFCB372">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>214F04EE-1DC3-0C0C-9DE1-BA7F711464DD</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="visible_to_friends" id="F50A511C-E47E-C020-10CE-FE772FE159BA">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>74FA704B-B07E-EFA6-2788-95DAF1C9E850</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4117B07B-4852-C8A4-8F5E-A7B23DD5781F" name="User_PK">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>3DEE45F7-7D60-5EF8-0879-BF97FCD33168</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8CFD68C-DF3F-AC5C-E948-EE721A17B18B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39F4BA9D-E147-5602-8926-6E37F8417B44" name="User__UN">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:04:49 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8CFD68C-DF3F-AC5C-E948-EE721A17B18B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC637866-152E-90B5-CDAA-DAAB022E03B3" name="User__UN_login">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:04:49 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8F640B7-C189-45BD-77D5-76AE1157EAE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A28D2E78-4631-C23D-5AA2-1F816EC3A448" name="User__UN_info">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:04:49 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60CD45DC-CBED-35D6-85EF-1B19DD744DBF"/>
+<colUsage columnID="657A68BF-CE46-7853-F30C-E8AD156A4700"/>
+<colUsage columnID="7D6D65EF-9258-6862-1885-B223BEC55451"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BC89924-C17E-969E-C03A-85DFF4A3A297" name="User__IDX">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:05:52 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8CFD68C-DF3F-AC5C-E948-EE721A17B18B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C14DFF16-E3D1-ACD0-8334-CC00229A6C9B" name="User__IDX_login">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:05:52 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8F640B7-C189-45BD-77D5-76AE1157EAE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E606481-7BD5-3034-7ED2-BFFA6F723AB2" name="User__IDX_firstname">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:05:52 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60CD45DC-CBED-35D6-85EF-1B19DD744DBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EEA8D04-FC2A-A43A-F2FC-403BF0034A10" name="User__IDX_surname">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:05:52 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="657A68BF-CE46-7853-F30C-E8AD156A4700"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9FF8430-CFE6-6BA7-31EA-55EC57DB8654" name="User__IDX_email">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:05:52 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D6D65EF-9258-6862-1885-B223BEC55451"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

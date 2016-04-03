@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E34E1454-85B7-7E8A-6A72-8250DB726905" name="history">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>75B789EF-1EE7-8194-9396-79CA3E945EA9</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<abbreviation>h</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="DE983CA1-FA34-F134-C18C-3D39053A16BF">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>011E5562-3C5C-59C3-B3B3-32E6AD3698A4</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>history_sequence</autoIncrementSequenceName>
+<autoIncrementTriggerName>history_id_trigger</autoIncrementTriggerName>
+</Column>
+<Column name="start_time" id="F66116EF-A21D-6464-B0CE-3B1E6C4F0EB6">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>4C01F422-2BC4-B8A3-EB2A-633301BE5A31</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_time" id="B1F95A77-6E3C-15A3-164A-A42B61EB3E25">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>B49A7D41-D88A-925D-0C2D-79BB92DDDCF2</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CECBE614-72C0-0C3D-3EFA-E0B43C16CFD4" name="history_PK">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>F9F3D3CB-3548-A67C-E57B-B83124133DE2</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE983CA1-FA34-F134-C18C-3D39053A16BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7594FE80-F6C9-D315-F354-484B7D033EC8" name="history__UN">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:11:11 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE983CA1-FA34-F134-C18C-3D39053A16BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9198BD1F-2821-8B88-9FAF-15C08A1A1D6C" name="history__IDX">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:11:11 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE983CA1-FA34-F134-C18C-3D39053A16BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<validTimeDimensions>
+<validTimeDimension class="oracle.dbtools.crest.model.design.relational.ValidTimeDimension" name="ValidTime" directorySegmentName="seg_0" id="5E6F176F-F630-B7DF-16E0-D07089FF9A7F">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:11:28 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<endTimeColumn>B1F95A77-6E3C-15A3-164A-A42B61EB3E25</endTimeColumn>
+<startTimeColumn>F66116EF-A21D-6464-B0CE-3B1E6C4F0EB6</startTimeColumn>
+</validTimeDimension>
+</validTimeDimensions>
+</Table>

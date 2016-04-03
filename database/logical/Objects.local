@@ -2,6 +2,6 @@
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
    <object objectType="Entity" objectID="4C0FABE8-1876-0F08-64F8-A36B578A0A25" name="User" seqName="seg_0"/>
    <object objectType="Entity" objectID="75B789EF-1EE7-8194-9396-79CA3E945EA9" name="history" seqName="seg_0"/>
-   <object objectType="Relation" objectID="7E2D7C08-BE98-C2FC-B79C-E622650AA028" name="friends" seqName="seg_0"/>
    <object objectType="Relation" objectID="580DB693-6629-FC60-A1CE-C40F6DF42B1F" name="history_to_user" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7E2D7C08-BE98-C2FC-B79C-E622650AA028" name="friends" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

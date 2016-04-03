@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BAFC2B29-EAC3-7D83-CD60-05A687CAC609" name="history_to_user">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="history_id" id="55B1BD1E-A06C-1A4D-E552-DF78061F2043">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>DE983CA1-FA34-F134-C18C-3D39053A16BF</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39D9700B-B042-751C-AC1A-EEE59FAD6F29" referredColumn="DE983CA1-FA34-F134-C18C-3D39053A16BF"/>
+</associations>
+</Column>
+<Column name="user_id" id="AE513290-C8C8-AF59-9A3E-66655BD57343">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>E8CFD68C-DF3F-AC5C-E948-EE721A17B18B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E7D3372-D99C-C3C6-E7EF-E09AC1CA65DA" referredColumn="E8CFD68C-DF3F-AC5C-E948-EE721A17B18B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="342D2CFD-5FBC-4B3D-98F2-208A9FB26634" name="history_to_user_PK">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55B1BD1E-A06C-1A4D-E552-DF78061F2043"/>
+<colUsage columnID="AE513290-C8C8-AF59-9A3E-66655BD57343"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C7C76DB-8049-6B4F-5C4A-54A9E0FD299C" name="history_to_user__UN">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:12:14 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55B1BD1E-A06C-1A4D-E552-DF78061F2043"/>
+<colUsage columnID="AE513290-C8C8-AF59-9A3E-66655BD57343"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B427D4E1-FB1D-B838-44C4-CF67C4B3D79A" name="history_to_user__IDX_history">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:13:02 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55B1BD1E-A06C-1A4D-E552-DF78061F2043"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A26B6D4C-EFDE-78BF-6209-DB100573BF58" name="history_to_user__IDX_user">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:13:02 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE513290-C8C8-AF59-9A3E-66655BD57343"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7061202-BAF0-77DC-F07D-19C0F7C90E87" name="history_to_user__IDX_history_user">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:13:02 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55B1BD1E-A06C-1A4D-E552-DF78061F2043"/>
+<colUsage columnID="AE513290-C8C8-AF59-9A3E-66655BD57343"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CDB3457-F7DD-FDE2-A8F0-6C6EAE8469EA" name="FK_ASS_3">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>580DB693-6629-FC60-A1CE-C40F6DF42B1F</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55B1BD1E-A06C-1A4D-E552-DF78061F2043"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F014B81-E685-26A6-1F65-231B54D5E157" name="FK_ASS_4">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 20:02:43 UTC</createdTime>
+<generatorID>580DB693-6629-FC60-A1CE-C40F6DF42B1F</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE513290-C8C8-AF59-9A3E-66655BD57343"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
