@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C0FABE8-1876-0F08-64F8-A36B578A0A25" name="User">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 19:49:01 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="CB000970-8A3A-A87D-5D92-999D21BE3BB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>u</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="BD5D8A64-2BF9-D461-3EBB-69C97A927EFD">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 19:51:42 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="CB000970-8A3A-A87D-5D92-999D21BE3BB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="login" id="499E8ACC-DF94-E52A-5BB9-2378D99A5DA0">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 19:49:30 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="CB000970-8A3A-A87D-5D92-999D21BE3BB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="password" id="943C66D8-ABEB-55FB-2A79-2A124910D1AF">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 19:50:23 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="CB000970-8A3A-A87D-5D92-999D21BE3BB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+</Attribute>
+<Attribute name="firstname" id="487DB077-ADA2-A9F8-05D5-F4E48C72FBA5">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 19:50:01 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="CB000970-8A3A-A87D-5D92-999D21BE3BB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="surname" id="9375C925-2AC0-5E79-0D5C-BD29B1564FF2">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 19:50:59 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="CB000970-8A3A-A87D-5D92-999D21BE3BB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="email" id="7296DC82-9AFA-69E8-B65E-7438E87A541D">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 19:51:17 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="CB000970-8A3A-A87D-5D92-999D21BE3BB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="description" id="129C78D3-EC07-9923-DDB6-CEEEF8CB9133">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 19:52:02 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="CB000970-8A3A-A87D-5D92-999D21BE3BB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5000</dataTypeSize>
+</Attribute>
+<Attribute name="visible_to_strangers" id="214F04EE-1DC3-0C0C-9DE1-BA7F711464DD">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 19:52:34 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="CB000970-8A3A-A87D-5D92-999D21BE3BB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="visible_to_friends" id="74FA704B-B07E-EFA6-2788-95DAF1C9E850">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 19:53:04 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="CB000970-8A3A-A87D-5D92-999D21BE3BB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3DEE45F7-7D60-5EF8-0879-BF97FCD33168" name="{entity} PK">
+<createdBy>Piotr</createdBy>
+<createdTime>2016-04-03 19:51:51 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="CB000970-8A3A-A87D-5D92-999D21BE3BB7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BD5D8A64-2BF9-D461-3EBB-69C97A927EFD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
