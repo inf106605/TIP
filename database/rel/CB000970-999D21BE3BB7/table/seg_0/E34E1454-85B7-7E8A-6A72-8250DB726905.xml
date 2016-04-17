@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E34E1454-85B7-7E8A-6A72-8250DB726905" name="history">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E34E1454-85B7-7E8A-6A72-8250DB726905" name="histories">
 <createdBy>Piotr</createdBy>
 <createdTime>2016-04-03 20:02:43 UTC</createdTime>
 <generatorID>75B789EF-1EE7-8194-9396-79CA3E945EA9</generatorID>
@@ -81,7 +81,7 @@
 <validTimeDimensions>
 <validTimeDimension class="oracle.dbtools.crest.model.design.relational.ValidTimeDimension" name="ValidTime" directorySegmentName="seg_0" id="5E6F176F-F630-B7DF-16E0-D07089FF9A7F">
 <createdBy>Piotr</createdBy>
-<createdTime>2016-04-03 20:11:28 UTC</createdTime>
+<createdTime>2016-04-17 21:25:00 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <endTimeColumn>B1F95A77-6E3C-15A3-164A-A42B61EB3E25</endTimeColumn>
 <startTimeColumn>F66116EF-A21D-6464-B0CE-3B1E6C4F0EB6</startTimeColumn>
